@@ -1,0 +1,64 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "entry": "/Users/yifanzhou/Evan/coding/mymushroom/src/index.tsx",
+  "plugins": [
+    "react-static-plugin-typescript",
+    [
+      "/Users/yifanzhou/Evan/coding/mymushroom/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/yifanzhou/Evan/coding/mymushroom/src/pages"
+      }
+    ],
+    "/Users/yifanzhou/Evan/coding/mymushroom/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/yifanzhou/Evan/coding/mymushroom/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/yifanzhou/Evan/coding/mymushroom"
+  ],
+  "paths": {
+    "ROOT": "/Users/yifanzhou/Evan/coding/mymushroom",
+    "SRC": "/Users/yifanzhou/Evan/coding/mymushroom/src",
+    "DIST": "/Users/yifanzhou/Evan/coding/mymushroom/dist",
+    "ASSETS": "/Users/yifanzhou/Evan/coding/mymushroom/dist",
+    "PLUGINS": "/Users/yifanzhou/Evan/coding/mymushroom/plugins",
+    "TEMP": "/Users/yifanzhou/Evan/coding/mymushroom/tmp",
+    "ARTIFACTS": "/Users/yifanzhou/Evan/coding/mymushroom/artifacts",
+    "PUBLIC": "/Users/yifanzhou/Evan/coding/mymushroom/public",
+    "NODE_MODULES": "/Users/yifanzhou/Evan/coding/mymushroom/node_modules",
+    "EXCLUDE_MODULES": "/Users/yifanzhou/Evan/coding/mymushroom/node_modules",
+    "PACKAGE": "/Users/yifanzhou/Evan/coding/mymushroom/package.json",
+    "HTML_TEMPLATE": "/Users/yifanzhou/Evan/coding/mymushroom/dist/index.html",
+    "STATIC_DATA": "/Users/yifanzhou/Evan/coding/mymushroom/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
